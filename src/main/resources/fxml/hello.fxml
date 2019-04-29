@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="573.0" prefWidth="965.0" style="-fx-background-color: #0c192c;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="my.pet.mavenjavafxapp.controller.MainController">
+   <right>
+      <AnchorPane prefHeight="597.0" prefWidth="329.0" style="-fx-background-color: #10161e;" BorderPane.alignment="CENTER">
+         <children>
+            <JFXPasswordField fx:id="psw" focusColor="WHITE" labelFloat="true" layoutX="27.0" layoutY="47.0" prefHeight="53.0" prefWidth="276.0" promptText="Password" style="-fx-background-color: #000000;" unFocusColor="BLACK">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXButton fx:id="login" buttonType="RAISED" layoutX="87.0" layoutY="444.0" prefHeight="49.0" prefWidth="155.0" style="-fx-background-color: #2e459f;" text="LOGIN" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Bold" size="14.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="one" layoutX="27.0" layoutY="200.0" prefHeight="45.0" prefWidth="91.0" style="-fx-background-color: #616772;" text="1" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="two" layoutX="120.0" layoutY="200.0" prefHeight="45.0" prefWidth="91.0" style="-fx-background-color: #616772;" text="2" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="three" layoutX="213.0" layoutY="200.0" prefHeight="45.0" prefWidth="91.0" style="-fx-background-color: #616772;" text="3" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Bold" size="12.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="four" layoutX="27.0" layoutY="246.0" prefHeight="45.0" prefWidth="91.0" style="-fx-background-color: #616772;" text="4" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Bold" size="12.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="five" layoutX="120.0" layoutY="246.0" prefHeight="45.0" prefWidth="91.0" style="-fx-background-color: #616772;" text="5" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Bold" size="12.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="six" layoutX="213.0" layoutY="246.0" prefHeight="45.0" prefWidth="91.0" style="-fx-background-color: #616772;" text="6" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Bold" size="12.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="seven" layoutX="27.0" layoutY="292.0" prefHeight="45.0" prefWidth="91.0" style="-fx-background-color: #616772;" text="7" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Bold" size="12.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="eight" layoutX="120.0" layoutY="292.0" prefHeight="45.0" prefWidth="91.0" style="-fx-background-color: #616772;" text="8" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Bold" size="12.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="nine" layoutX="213.0" layoutY="292.0" prefHeight="45.0" prefWidth="91.0" style="-fx-background-color: #616772;" text="9" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Bold" size="12.0" />
+               </font></JFXButton>
+            <JFXButton fx:id="zero" layoutX="120.0" layoutY="338.0" prefHeight="45.0" prefWidth="91.0" style="-fx-background-color: #616772;" text="0" textFill="WHITE" />
+            <JFXButton fx:id="clear" buttonType="RAISED" layoutX="27.0" layoutY="147.0" prefHeight="49.0" prefWidth="137.0" style="-fx-background-color: #394556;" text="CLEAR" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="back" buttonType="RAISED" layoutX="167.0" layoutY="147.0" prefHeight="49.0" prefWidth="137.0" style="-fx-background-color: #394556;" text="BACKSPACE" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Bold" size="14.0" />
+               </font>
+            </JFXButton>
+            <JFXButton fx:id="login1" buttonType="RAISED" layoutX="87.0" layoutY="495.0" prefHeight="49.0" prefWidth="155.0" style="-fx-background-color: #1b8355;" text="CLOCK IN/OUT" textFill="WHITE">
+               <font>
+                  <Font name="Roboto Bold" size="14.0" />
+               </font>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+   </right>
+   <center>
+      <StackPane fx:id="stackPane" prefHeight="728.0" prefWidth="636.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="image" fitHeight="444.0" fitWidth="635.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </StackPane>
+   </center>
+</BorderPane>
